@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Софья Буркова](https://up.htmlacademy.ru/htmlcss/30/user/1460789).
-* Наставник: `Неизвестно`.
+* Наставник: [Владислав Кривокора](https://htmlacademy.ru/profile/krivokora).
 
 ---
 
