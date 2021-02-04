@@ -1,0 +1,228 @@
+/*Fonts*/
+
+@font-face {
+    font-family: "PT Sans";
+    src: local("PTSans.woff2"),
+         local("PTSans.woff"),
+         url(../fonts/"PTSans.woff2") format("woff2"),
+         url(../fonts/"PTSans.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+     font-family: "PT Sans Bold";
+     src: local("PTSans-Bold.woff2"),
+          local("PTSans-Bold.woff"),
+          url(../fonts/"PTSans-Bold.woff2") format("woff2"),
+          url(../fonts/"PTSans-Bold.woff") format("woff");
+     font-weight: 700;
+     font-style: normal;
+   }
+
+   /*Variables*/
+
+:root {
+--basic-color: #000000;
+--dark-gray: #333333;
+--basic-white: #ffffff;
+--blue: #81B3D2;
+--lightgrey: #EEEEEE;
+--brown-peace: #766357;
+--grey-peace: #F2F2F2;
+--slider-grey: #ABABAB;
+--flip-peace: #CACACA;
+--rating: #666666;
+--checkbox-block: #6A6A6A;
+--blue-press: #5496BD;
+--blue-hover: #669EC0;
+--brown-hover: #604E43;
+--brown-press: #503E33;
+--grey-focus: #EBEBEB;
+--grey-press: #E5E5E5;
+--grey-decor: #A9A9A9;
+--logo-html-peace: #231F20;
+--logo-html-focus: #BDBBBC;
+
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.page-body {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--basic-color);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  background-image: url("../img/background-photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.main-navigation {
+  line-height: 26px;
+  color: var(--basic-color);
+  background-color: transparent;
+}
+
+.site-navigation {
+  list-style: none;
+}
+.site-navigation a {
+font-weight: 700;
+color: var(--basic-color);
+text-decoration: none;
+}
+
+.site-navigation a:hover {
+  color: var(--blue);
+}
+.site-navigation a:focus {
+  opacity: 30%;
+}
+/*?*/
+.site-navigation a active {
+color: var(--brown-peace);
+}
+
+.features h2 {
+font-weight: 700;
+font-size: 21px;
+line-height: 26px;
+text-align: center;
+}
+.features p {
+  line-height: 26px;
+  text-align: center;
+  color: var(--dark-gray);
+  }
+
+.features-list {
+  list-style: none;
+}
+.features-item-1,
+.features-item-2 {
+  color: var(--basic-white);
+  background-color: var(--blue);
+}
+
+.features-item-1 h3 {
+  font-weight:700;
+}
+.features-item-1 p,
+.features-item-2 p {
+  color: var(--basic-white);
+}
+
+.features-detail-list {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+
+}
+.features-detail-item {
+list-style: none;
+}
+.features-detail h4 {
+  font-weight:700;
+  font-size: 21px;
+}
+.features-item {
+  background-color: var(--lightgrey);
+}
+
+/*Appointment*/
+
+.appointment h2{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+}
+.appointment p {
+line-height: 24px;
+text-align: center;
+
+}
+.find {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--basic-white);
+  background-color: var(--brown-peace);
+}
+.find:hover {
+  color: var(--basic-white);
+  background-color: var(--brown-hover);
+}
+.find:focus {
+  color: var(--basic-white);
+  background-color: var(--brown-press);
+}
+.appointment-item {
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--basic-white);
+  background-color: var(--blue);
+  text-decoration: none;
+}
+.button:hover {
+  color: var(--basic-white);
+  background-color: var(--blue-hover);
+}
+.button:focus {
+  color: var(--basic-white);
+  opacity: 30%;
+  background-color: var(--blue-press);
+}
+.button:active {
+  background-color: var(--special);
+}
+
+.button.disabled,
+.button:disabled {
+  cursor: default;
+  opacity: 0.5;
+  background-color: var(--basic-black);
+}
+
+/*Contacts*/
+
+.footer-contacts {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+}
+.contacts-phone {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--basic-color);
+  text-decoration: none;
+}
+.footer-social {
+  list-style: none;
+  text-align: center;
+}
+
+
+/* Social button */
+
+.social-button {
+  color: inherit;
+  text-align: center;
+}
+
+.footer-copyright {
+  text-align: right;
+}
